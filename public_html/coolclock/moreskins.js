@@ -208,5 +208,15 @@ CoolClock.config.skins = {
 		minuteHand:       { lineWidth: 2, startAt: -20, endAt: 80, color: "#7c8c03", alpha: .9 },
 		secondHand:       { lineWidth: 2, startAt: 70, endAt: 94, color: "#d93d04", alpha: .85 },
 		secondDecoration: { lineWidth: 1, startAt: 70, radius: 3, fillColor: "red", color: "black", alpha: .7 }
+	},
+
+	// By Subaquatic
+	elegant/*was gIG*/: {
+		outerBorder:      { lineWidth: 190, radius: 1, color: "silver", alpha: 1 },
+		smallIndicator:   { lineWidth: 2, startAt: 89, endAt: 94, color: "silver", alpha: 1 },
+		largeIndicator:   { lineWidth: 4, startAt: 83, endAt: 94, color: "silver", alpha: 1 },
+		hourHand:         { lineWidth: 4, startAt: -10, endAt: 50, color: "silver", alpha: 1 },
+		minuteHand:       { lineWidth: 3, startAt: -20, endAt: 80, color: "silver", alpha: 1 },
+		secondHand:       { lineWidth: 2, startAt: -30, endAt: 85, color: "red", alpha: .85 },
 	}
 };

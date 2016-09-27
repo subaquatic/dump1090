@@ -200,7 +200,7 @@ function initialize() {
                 // Create the clocks.
 		new CoolClock({
 			canvasId:       "utcclock",
-			skinId:         "classic",
+			skinId:         "elegant",
 			displayRadius:  40,
 			showSecondHand: true,
 			gmtOffset:      "0", // this has to be a string!
@@ -211,7 +211,7 @@ function initialize() {
 
 		ReceiverClock = new CoolClock({
 			canvasId:       "receiverclock",
-			skinId:         "classic",
+			skinId:         "elegant",
 			displayRadius:  40,
 			showSecondHand: true,
 			gmtOffset:      null,
