@@ -29,12 +29,12 @@ function getAltitudeZoneColors(NumberOfZones) {
 	var zone = Math.round(MaximumAltitude / NumberOfAltitudeZones);
 
 	// create zone color for every altitude zone
-	for (var altitude_zone = 0; altitude_zone < NumberOfZones; ++altitude_zone){
+	for (var altitude_zone = NumberOfZones; altitude_zone > 0; --altitude_zone){
 		var altitude = altitude_zone * zone;	
 
 		// calculate low and high zone border
-		var low_altitude_zone_border = Math.round(altitude);
-		var high_altitude_zone_border = Math.round(((altitude_zone + 1) * zone)) - 1;
+		var high_altitude_zone_border = Math.round(altitude);
+		var low_altitude_zone_border = Math.round(((altitude_zone - 1) * zone));
 
 		// color
 		var s = ColorByAlt.air.s;
